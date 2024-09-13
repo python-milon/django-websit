@@ -16,11 +16,11 @@
 
     "routes": [
      {
-      "src": "/(.vercel.app)",
-      "dest": "/static/"
+      "src": "/",
+      "dest": "/"
      },
      {
-      "src":"/(.vercel.app)",
+      "src":"/",
       "dest": "poll/wsgi.py"
       }
      ]
