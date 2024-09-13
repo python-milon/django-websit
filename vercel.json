@@ -16,11 +16,11 @@
 
     "routes": [
      {
-      "src": "/",
-      "dest": "/"
+      "src": "./",
+      "dest": "./"
      },
      {
-      "src":"/",
+      "src":"./",
       "dest": "poll/wsgi.py"
       }
      ]
